@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+   >
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="391dp"
+        android:layout_height="292dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-6dp"
+        android:background="#5313C6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <Button
+        android:id="@+id/enviar"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="315dp"
+        android:background="#673AB7"
+        android:text="Seleccionar Imagen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="387dp"
+        android:layout_height="312dp"
+        android:layout_alignParentBottom="true"
+        android:background="#CCC7C6"
+        android:gravity="top"
+        android:hint="Detected Text"
+        android:inputType="textMultiLine"
+        android:padding="10dp" />
+
+</RelativeLayout>
